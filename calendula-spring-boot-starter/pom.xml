@@ -29,4 +29,12 @@
             <artifactId>lombok</artifactId>
         </dependency>
     </dependencies>
+
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub KirillSmirnow Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/KirillSmirnow/calendula</url>
+        </repository>
+    </distributionManagement>
 </project>
